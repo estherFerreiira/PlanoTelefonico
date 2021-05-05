@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tele</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+        <div class = "container">
+            <form>
+                <fieldset>
+                    <legend> Cadastre Suas Informações</legend>
+                        <p class = "nameclass">
+                            <input type = "text" name = "name" id = "name" placeholder = "Nome:"
+                        </p>
+                        <p class = "lastnameclass">
+                            <input type = "text" name = "lastname" id = "lastName" placeholder = "Sobrenome:"
+                        </p>
+                        <p class = "emailclass">
+                            <input type = "text" name = "name" id = "email" placeholder = "E-mail:"
+                        </p>
+                        <p class = "phoneclass">
+                            <input type = "text" name = "name" id = "phone" placeholder = "Phone:"
+                        </p>
+                    
+                </fieldset>
+            </form>
+            
+            
+            <div class = "container-1">
+            
+            <div class = "originclass"
+                <p>Origem </p>
+                <select name = "select" id="originValue" onchange= "originValue()">
+                    <option value = "north" id = "north"> Norte</option>
+                    <option value = "south" id = "south"> Sul</option>
+                    <option value = "east" id = "east"> Leste</option>
+                    <option value = "west" id = "west"> Oeste</option>
+                </select>
+            </div>
+            
+            <div class = "minutesclass">
+                <p> Minutos de Ligação</p>
+                <input id= "minutes" onchange="minutes()"
+            </div>
+                
+                <div class = "whitherclass"> 
+                <p> Destino </p>
+                <select name = "select" id = "whitherValue" onchange = "whitherValue()">
+                    <option value = "north" id = "north"> Norte</option>
+                    <option value = "south" id = "south"> Sul</option>
+                    <option value = "east" id = "east"> Leste</option>
+                    <option value = "west" id = "west"> Oeste</option>
+                    <option value="all" id="all">Todos</option>
+                </select>
+                </div>
+                    <div class="text" id= "text0">
+                        <p class="resultclass1" id="text-1"></p>
+                        <p class="resultclass2" id="text-2"></p>
+                        <p class="resultclass3" id="text-3"></p>
+                    </div>
+            </div>
+            
+            <button id = "btn" onclick = "load()">OK</button>
+            
+          
+        </div>
+  
+</body>
+</html>

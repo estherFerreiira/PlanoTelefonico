@@ -1,0 +1,145 @@
+body{
+    font-size: 16px;
+    background-color: rgb(233, 217, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ 
+    
+}
+
+
+#name{
+    width: 15em;
+    border: 0;
+    border-bottom: 0.1em solid rgb(0, 0, 0);
+    outline: none;
+    background-color:white;
+    font-size: 1em;
+}
+#lastName{
+    position: relative;
+    float: right;
+    margin-top: -2.5em;
+    width: 15em;
+    border: 0;
+    border-bottom: 0.1em solid rgb(0, 0, 0);
+    outline: none;
+    background-color:white;
+    font-size: 1em;
+}
+#email{
+    width: 15em;
+    border: 0;
+    margin-top: 2em;
+    border-bottom: 0.1em solid rgb(0, 0, 0);
+    outline: none;
+    background-color:white;
+    font-size: 1em;
+}
+#phone{
+    position: relative;
+    float: right;
+    width: 15em;
+    margin-top: -2.5em;
+    border: 0;
+    border-bottom: 0.1em solid rgb(0, 0, 0);
+    outline: none;
+    background-color:white;
+    font-size: 1em;
+    
+}
+
+.container{
+    position: relative;
+    width: 45em;
+    height: 30em;
+    background-color: white;
+    border: 1em solid white;
+    border-radius: 0.8em;
+    color: black;
+    
+   
+    
+
+}
+form{
+    width: 35em;
+    height: 20em;
+    margin-top: 3em;
+}
+
+.container-1{
+    width: 15em;
+    height: 7em;
+    position: relative;
+    background-color:white;
+    border: 0.1em solid white;
+    border-radius: 0.8em;
+    color: black;
+    
+    
+}
+
+.originclass{
+    position: relative;
+    margin-top: -9em;
+  
+}
+
+.whitherclass{
+    position: relative;
+   margin-top: -14.3em;
+    margin-left: 8em;
+    
+}
+
+
+.minutesclass{
+    position: relative;
+    margin-top: 5em;
+    
+    
+}
+#minutes{
+    width: 3em;
+    height: 2em;
+}
+
+#btn{
+    margin-left: 10em;
+    margin-top: 3em;
+}
+
+
+
+#text0{
+    position: relative;
+    width: 15em;
+    font-size: 20px;
+    height: 5em;
+    border: 0.1em solid white;
+    margin-left: 15em;
+    margin-top: -1.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+#text-1{
+    position: relative;
+    width: 15em;
+    
+}
+
+#text-2{
+    position: relative;
+    margin-top: -2.2em;
+    margin-left: 3em;
+}
+#text-3{
+    position: relative;
+    margin-top: -1em;
+}
+
+
