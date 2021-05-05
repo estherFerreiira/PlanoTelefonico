@@ -8,7 +8,7 @@ class Form {
 
 }
 function load(){
-    placesFunction()
+    placesFunction() 
    
   
     const name_ = document.getElementById("name").value;
